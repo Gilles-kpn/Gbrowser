@@ -50,7 +50,7 @@ public class Controller {
     }
     @FXML protected  void reload(){
 
-        if(historique.getHistory().size() != 0){
+        if(!historique.getHistory().isEmpty()){
             ((WebTab)Tpane.getSelectionModel().getSelectedItem()).reload();
         }
     }

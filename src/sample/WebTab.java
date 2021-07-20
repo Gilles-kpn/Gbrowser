@@ -84,7 +84,7 @@ public class WebTab extends Tab {
         this.setText(s);
     }
     public void LoadUrl(String s){
-        if(s.length()>0){
+        if(!s.trim().isEmpty()){
             Pattern p = Pattern.compile("^(http://|https://)");
             Matcher m = p.matcher(s);
             if(!m.find()){

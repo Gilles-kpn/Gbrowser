@@ -20,7 +20,7 @@ public class Historiques extends Button {
     public  ArrayList<MenuItem> showHistory(){
         ArrayList<MenuItem>mes;
         mes = new ArrayList<MenuItem>();
-        if(!(history == null) && history.size() >0){
+        if(history != null && !history.isEmpty()){
         for (WebHistory.Entry h: history) {
             MenuItem i =new MenuItem(h.getTitle()+"\n"+h.getUrl()+"\nA "+h.getLastVisitedDate());
             i.setId(h.getUrl());
