@@ -1,0 +1,75 @@
+#back{
+-fx-background-image:url("../Icons/left-arrow.png");
+-fx-background-position:center;
+-fx-background-size:26px 23px;
+-fx-background-color: transparent;
+-fx-padding :5px;
+-fx-background-repeat:no-repeat;
+}
+#next{
+     -fx-background-image:url("../Icons/right-arrow.png");
+     -fx-background-position:center;
+     -fx-background-size:26px 23px;
+     -fx-padding :5px;
+     -fx-background-repeat:no-repeat;
+     -fx-background-color: transparent;
+}
+#reload{
+        -fx-background-image:url("../Icons/reload.png");
+         -fx-background-position:center;
+         -fx-background-size:20px 20px 20px 20px;
+         -fx-padding :5px;
+         -fx-background-repeat:no-repeat;
+         -fx-background-color: transparent;
+}
+#gotourl{
+-fx-background-image:url("../Icons/search.png");
+         -fx-background-position:center;
+         -fx-background-size:20px 20px 20px 20px;
+         -fx-padding :5px;
+         -fx-background-repeat:no-repeat;
+         -fx-background-color: transparent;
+}
+#settings{
+         -fx-background-image:url("../Icons/menu.png");
+         -fx-background-position:center;
+         -fx-background-size:20px 20px 20px 20px;
+         -fx-padding :5px;
+         -fx-background-repeat:no-repeat;
+         -fx-background-color: transparent;
+}
+#historique{
+         -fx-background-image:url("../Icons/history.png");
+         -fx-background-position:center;
+         -fx-background-size:20px 20px 20px 20px;
+         -fx-padding :5px;
+         -fx-background-repeat:no-repeat;
+         -fx-background-color: transparent;
+}
+#download{
+    -fx-background-image:url("../Icons/download.png");
+             -fx-background-position:center;
+             -fx-background-size:26px 20px;
+             -fx-padding :5px;
+             -fx-background-repeat:no-repeat;
+             -fx-background-color: transparent;
+}
+#home{
+    -fx-background-image:url("../Icons/home.png");
+             -fx-background-position:center;
+             -fx-background-size:26px 20px;
+             -fx-padding :5px;
+             -fx-background-repeat:no-repeat;
+             -fx-background-color: transparent;
+}
+#Favoris{
+-fx-background-color: silver;
+-fx-background-image:url("../Icons/add-to-favorites.png");
+-fx-background-repeat:no-repeat;
+-fx-background-size:26px 26px 26px 26px;
+-fx-background-position:center;
+-fx-background-color: transparent;
+}
+#download:hover,#historique:hover,#search:hover,#gotourl:hover,#home:hover,#back:hover,#next:hover,#Favoris:hover,#reload:hover{
+-fx-background-color:silver;
+}
